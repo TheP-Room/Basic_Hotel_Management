@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Backup
+comment1.params=manager
+comment1.target=void\ createBackup(Manager)
+comment2.params=manager
+comment2.target=Manager\ loadBackup(Manager)
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CanUpload
+comment0.text=\n\ \n\ Interface\ is\ used\ just\ to\ build\ the\ program\ loosely\ coupled,\n\ in\ future\ you\ can\ easily\ implement\ another\ backup\ creation\ method\n\ without\ breaking\ the\ code\n\n\ @author\ TheP-Room\n\ @version\ Java\ 24.0.2\n
+comment1.params=manager
+comment1.target=void\ createBackup(Manager)
+comment2.params=manager
+comment2.target=Manager\ loadBackup(Manager)
+numComments=3

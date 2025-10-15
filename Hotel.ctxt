@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hotel
+comment1.params=
+comment1.target=java.lang.String\ getHotelName()
+comment2.params=
+comment2.target=void\ addRooms()
+comment3.params=
+comment3.target=void\ getRoomDetails()
+comment4.params=
+comment4.target=int\ getNoOfRooms()
+comment5.params=roomType\ isSingle
+comment5.target=Room\ checkAvailability(char,\ boolean)
+numComments=6
