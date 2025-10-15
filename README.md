@@ -17,3 +17,7 @@ where you can get room details, book rooms and checkout from them,
 also the data is saved locally in file to ensure the updation
 and manages the availability of rooms.
 '
+
+The Project Structure looks something like this ->
+
+<img width="643" height="368" alt="image" src="https://github.com/user-attachments/assets/04d8ee03-8001-4f07-99b6-c6c35850dd89" />
