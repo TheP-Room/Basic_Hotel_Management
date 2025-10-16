@@ -3,10 +3,15 @@ HOTEL MANAGEMENT SYSTEM ------ TheP-Room
 ----------------------------------------
 
 PROJECT TITLE: 'Hotel Management System'
+
 PURPOSE OF PROJECT: 'Brush up on skills'
+
 VERSION or DATE: 'Java 24.0.2'
+
 HOW TO START THIS PROJECT: 'Keep files together in same dir and run Main.java'
+
 AUTHORS: 'TheP-Room'
+
 USER INSTRUCTIONS: 
 '
 It is not meant to guide you about your input values, it 
