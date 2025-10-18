@@ -22,6 +22,8 @@ public class Backup implements CanUpload
             FileOutputStream fOS = new FileOutputStream("backupFile");
             ObjectOutputStream oOS = new ObjectOutputStream(fOS);
             oOS.writeObject(manager);
+            oOS.close();
+            fOS.close();
         }
         catch (Exception e) {
             System.out.println("Error");
@@ -35,7 +37,10 @@ public class Backup implements CanUpload
             File file = new File("backupFile");
             FileInputStream fIS = new FileInputStream(file);
             ObjectInputStream oIS = new ObjectInputStream(fIS);
-            return (Manager) oIS.readObject();
+            var newManager = (Manager) oIS.readObject();
+            oIS.close();
+            fIS.close();
+            return newManager;
         }
         catch (Exception e) {
             System.out.println("No Previous Backup Found.\n");
